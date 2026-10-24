@@ -25,7 +25,7 @@ Open <http://localhost:5173>. The API health endpoint is <http://localhost:8000/
 
 The repository root `main.py` exposes the FastAPI application and serves the prebuilt React files from `frontend/dist`. Vercel detects the FastAPI app and installs the root `requirements.txt`. The React build is committed so a separate Node build step is not needed.
 
-Vercel URL: to be added after deployment.
+Vercel URL: https://wind-forecast-desk-7q4m.vercel.app
 
 ## Local development without Docker
 
